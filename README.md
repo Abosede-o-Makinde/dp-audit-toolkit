@@ -7,8 +7,6 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat)
 ![GDPR](https://img.shields.io/badge/Framework-UK%20GDPR-purple?style=flat)
 
----
-
 ## What this tool does
 
 The **Data Protection Audit Toolkit** allows a data protection officer, information governance lead, or security engineer to run a structured audit of an organisation's GDPR compliance posture — without needing legal expertise to interpret the results.
@@ -21,15 +19,11 @@ It works by:
 4. **Generating a detailed report** (PDF + JSON) with findings, risk ratings, and prioritised recommendations
 5. **Flagging critical gaps** that represent the highest ICO enforcement risk
 
----
-
 ## Why this exists
 
 UK GDPR compliance is often treated as a legal or administrative exercise. The result is that organisations produce policies that satisfy auditors on paper but fail technically — encryption is absent, breach detection is manual, access controls are undocumented.
 
 This tool is built on the premise that **GDPR compliance is an engineering problem** as much as a legal one. Every article in the regulation has a technical implementation. This toolkit makes those implementations explicit and auditable.
-
----
 
 ## GDPR articles covered
 
@@ -46,8 +40,6 @@ This tool is built on the premise that **GDPR compliance is an engineering probl
 | Article 35 | DPIA | Data protection impact assessments |
 | Article 37 | DPO | Data protection officer designation |
 
----
-
 ## Installation
 
 ```bash
@@ -62,8 +54,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
-
----
 
 ## Usage
 
@@ -102,8 +92,6 @@ sample_outputs/
 └── gdpr_gap_analysis_[timestamp].md # Gap analysis in markdown
 ```
 
----
-
 ## Sample output
 
 ```
@@ -125,8 +113,6 @@ sample_outputs/
 ║  ICO ENFORCEMENT RISK: ELEVATED                         ║
 ╚══════════════════════════════════════════════════════════╝
 ```
-
----
 
 ## Project structure
 
@@ -196,8 +182,6 @@ Article scores are weighted by ICO enforcement priority. Articles 32, 25, and 33
 
 Full methodology: [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
 
----
-
 ## Roadmap
 
 - [x] Core checklist engine (Articles 5, 25, 32, 33, 34)
@@ -210,8 +194,6 @@ Full methodology: [docs/METHODOLOGY.md](docs/METHODOLOGY.md)
 - [ ] API endpoint for integration with GRC platforms — v1.3
 - [ ] DPIA template generator — v1.4
 
----
-
 ## Contributing
 
 Contributions are welcome. Please read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) before submitting a pull request.
@@ -221,19 +203,14 @@ Areas where contributions are most needed:
 - Translations of report output
 - Additional export formats
 
----
-
 ## Disclaimer
 
 This tool is designed to support GDPR compliance assessment. It does not constitute legal advice and does not guarantee regulatory compliance. Organisations should seek qualified legal and data protection advice for formal compliance programmes.
 
----
 
 ## Licence
 
 MIT — see [LICENSE](LICENSE)
-
----
 
 ## Author
 
