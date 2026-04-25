@@ -1,0 +1,6 @@
+{
+    "green_threshold": 80,
+    "amber_threshold": 60,
+    "critical_gap_threshold": 50,
+    "high_risk_threshold": 70
+}

@@ -1,0 +1,17 @@
+{
+    "overall_score": 61,
+    "article_scores": {
+        "Article 5": 72,
+        "Article 25": 45,
+        "Article 32": 58,
+        "Article 33": 40,
+        "Article 35": 55,
+        "Article 37": 90
+    },
+    "risks": {
+        "critical_gaps": 3,
+        "high_risks": 5,
+        "ico_enforcement_risk": "ELEVATED"
+    },
+    "generated": "2026-04-21T00:00:00"
+}
