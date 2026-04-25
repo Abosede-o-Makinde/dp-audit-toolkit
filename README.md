@@ -1,6 +1,6 @@
 # Data Protection Audit Toolkit (dp-audit-toolkit)
 
-> A Python-based GRC tool that audits an organisation's data protection controls against UK GDPR obligations and produces a scored compliance report.
+A Python-based GRC tool that audits an organisation's data protection controls against UK GDPR obligations and produces a scored compliance report.
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat&logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat)
